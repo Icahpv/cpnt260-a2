@@ -8,21 +8,16 @@
 
 **Company nature**: Restaurant / Events & Catering
 
-**Logo**: Canva
+**Logo**: Icons8
 
 **Color Scheme**: Coolors ( [https://coolors.co/](https://coolors.co/) )
+                  https://coolors.co/001524-15616d-ffecd1-ff7d00-78290f
 
 **Font**: google fonts
 
-**Images**: Personal
+**Images**: 
+- Personal
+- Pexels - Photo by Airam Dato-on
+- Unsplash - Photo by Eiliv-Sonas Aceron
+- Unsplash - Photo by Avel Chuklanov 
 
-___
-**September 22**
-I drafted how I want my website to look like. I also wrote in a word pad what navigations to put. This website will be about an events and catering company.
-
- Navigation List:
- - Home
- - Menu
- - Services
- - Gallery
- - Contact Us
