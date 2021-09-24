@@ -7,13 +7,15 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
-  padding: 20px 30px 0px 30px;
+  flex-wrap: wrap;
+  padding: 30px;
+  /* background */
   background-image: 
         url("https://images.unsplash.com/photo-1489710020360-66e504159b43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 500px; 
 }
 
 logo {
@@ -21,12 +23,22 @@ logo {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  text-align: center;
+  /* shadow cannot be added as this is a box */
+}
+
+nav {
+  display: flex;
+  align-self: flex-start;
 }
 
 
 nav ul {
   display: inline-flex;
-  gap: 5rem;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
