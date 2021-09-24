@@ -1,0 +1,25 @@
+
+logo img {
+  color: white;
+}
+
+
+h1 {
+  font-size: 25px;
+  font-family: Berkshire Swash, cursive;
+}
+
+p {
+  font-size: 12px;
+  font-family: Rubik, sans-serif;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
