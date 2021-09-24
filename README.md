@@ -21,3 +21,7 @@
 - Unsplash - Photo by Eiliv-Sonas Aceron
 - Unsplash - Photo by Avel Chuklanov 
 
+
+**Problems Encountered**
+1.  Logo: I saved my icon in my assets but I realized it's a jpg file and the color cannot be changed, I had to search the same icon in Icons8 and use the link.
+2. Header background picture: Again, I saved this picture in my assets/images but for some reason, it does not work for me, I'm glad I remembered who and where I took this image from and used the image link for this project.
