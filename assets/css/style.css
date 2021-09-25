@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  background-color: #001524;
+  background-color: #323031;
 
 }
 
@@ -53,32 +53,97 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(3, min-content);
   grid-auto-rows: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  justify-content: center;
-  padding: 15px;
+  justify-content: space-evenly;
+  padding: 40px;
 }
 
 .container div {
   /* style */
+  align-items: center;
   background-color: whitesmoke;
   border-color: white;
-  border-style: outset;
+  border-style: solid;
+  border-radius: 15px;
   text-shadow: 3px 3px 6px white;
-  text-align: center;
+  grid-gap: 15px;
+  box-shadow: 2px 2px 4px black;
+  opacity: 0.8;
 }
 
-
 .menu img {
+  border-radius: 15px;
   height: 250px;
   width: 350px;
 }
 
+.menu {
+
+}
+
 .contact img {
+  border-radius: 15px;
   height: 250px;
   width: 350px;
 }
 
 .gallery img {
+  border-radius: 15px;
   height: 250px;
   width: 350px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 2fr;
+  grid-gap: 30px;
+  grid-column-end: span 2;
+  justify-items: space-evenly;
+  align-items: center;
+  padding: 70px;
+}
+
+section div {
+ background-color: whitesmoke;
+ border-radius: 5px;
+ align-items: center;
+ padding: 40px;
+
+}
+
+/* FOOTER */
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+  background-color: #ffecd1;
+  padding: 30px;
+  grid-gap: 50px;
+  box-shadow: 4px 4px 8px black;
+}
+
+.handles {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.sub-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    max-width: 100%;
+    align-self: flex-end;
+    border-radius: 10px;
+    font-size: 14px
 }

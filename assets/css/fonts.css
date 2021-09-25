@@ -42,19 +42,81 @@ h2 {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   font-size: 40px;
   font-family: 'Rubik', sans-serif;
   color: #ffecd1;
+  text-shadow: 2px 2px 4px black;
 }
 
 /******GRID******/
 
 h3, h4, h5 {
-  font-size: 30px;
-  color: #001524;
+  font-size: 35px;
+  color: #78290f;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
-div p {
-  color: #001524;
+.container p {
+  padding: 20px;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px gray;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.container div:hover {
+  opacity: 1;
+  transition-duration: 6ms;
+  box-shadow: 10px 10px 12ffecd1#px black;
+}
+
+h6 {
+  font-size: 50px;
+  color: #ffecd1;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Rubik', sans-serif;
+}
+
+section p {
+  font-size: 18px;
+  font-family: 'rubik', sans-serif;
+  line-height: 1.8;
+}
+
+footer p {
+  font-size: 15px;
+  font-family: 'rubik', sans-serif;
+}
+
+input {
+  font-size: 12px;
+  font-family: 'rubik', sans-serif;
+  padding: 5px;
+  width: 25ch;
+} 
+
+label {
+  font-size: 15px;
+  font-family: 'rubik', sans-serif;
+  padding: 5px;
+  width: 25ch;
+
+}
+
+.sub-form p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sub-form a {
+  text-decoration: none;
+  color: black;
 }
