@@ -39,19 +39,22 @@ nav a:hover {
 /* HEADING */
 
 h2 {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 15px;
   font-size: 40px;
   font-family: 'Rubik', sans-serif;
-  color: black;
+  color: #ffecd1;
 }
 
 /******GRID******/
 
 h3, h4, h5 {
   font-size: 30px;
-  
+  color: #001524;
+}
+
+div p {
+  color: #001524;
 }

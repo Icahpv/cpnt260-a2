@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  background-color: #001524;
 
 }
 
@@ -50,22 +51,34 @@ nav ul {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, min-content);
   grid-auto-rows: 1fr 1fr 1fr;
-  grid-gap: 15px;
-  padding: 15px;;
+  grid-gap: 20px;
+  justify-content: center;
+  padding: 15px;
 }
 
 .container div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 30px;
-  background-color: teal;
-  border-color: gray;
+  /* style */
+  background-color: whitesmoke;
+  border-color: white;
+  border-style: outset;
+  text-shadow: 3px 3px 6px white;
+  text-align: center;
 }
 
-.menu {
-  
+
+.menu img {
+  height: 250px;
+  width: 350px;
+}
+
+.contact img {
+  height: 250px;
+  width: 350px;
+}
+
+.gallery img {
+  height: 250px;
+  width: 350px;
 }
