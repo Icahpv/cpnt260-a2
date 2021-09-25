@@ -25,4 +25,6 @@
 **Problems Encountered**
 1.  Logo: I saved my icon in my assets but I realized it's a jpg file and the color cannot be changed and shadow cannot be added, I had to search the same icon in Icons8 and use the link.
 2. Header background picture: Again, I saved this picture in my assets/images but for some reason, it does not work for me, I'm glad I remembered who and where I took this image from and used the image link for this project. Also hoping, I could change the filter for this background and make it a bit darker but not sure how to do that.
-3. Subscribe form: could not get the label to center with input box.
+3. Subscribe form: could not get the label to center with input box. Could not get the content wrap.
+4. Article (Cards): Having problems with centering them while being on auto-fit box for grid.
+5. Navigations (Services): Did not make a card for this one, the original plan is to make a button on the header for services.

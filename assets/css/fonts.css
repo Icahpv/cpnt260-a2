@@ -17,15 +17,16 @@ header p {
 
 nav li {
   list-style-type: none;
+  border: black;
 }
 
 nav a {
-  display: flex;
   text-decoration: none;
   font-size: 20px;
   color: white;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 1px 1px 1px black;
   padding: 10px;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -42,7 +43,7 @@ h2 {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 70px;
   font-size: 40px;
   font-family: 'Rubik', sans-serif;
   color: #ffecd1;
@@ -59,22 +60,22 @@ h3, h4, h5 {
   font-family: 'Rubik', sans-serif;
 }
 
-.container p {
+article p {
   padding: 20px;
   font-size: 16px;
   text-shadow: 1px 1px 1px gray;
   font-family: 'Rubik', sans-serif;
 }
 
-.container a {
+article a {
   text-decoration: none;
   color: black;
 }
 
-.container div:hover {
+article div:hover {
   opacity: 1;
   transition-duration: 6ms;
-  box-shadow: 10px 10px 12ffecd1#px black;
+  box-shadow: 10px 10px 12px black;
 }
 
 h6 {
@@ -91,14 +92,18 @@ section p {
   line-height: 1.8;
 }
 
+/********* FOOTER ********/
+
 footer p {
-  font-size: 15px;
+  font-size: 12px;
   font-family: 'rubik', sans-serif;
+  color: #001524;
 }
 
 input {
   font-size: 12px;
   font-family: 'rubik', sans-serif;
+  color: #001524;
   padding: 5px;
   width: 25ch;
 } 
@@ -106,14 +111,18 @@ input {
 label {
   font-size: 15px;
   font-family: 'rubik', sans-serif;
+  color: #001524;
   padding: 5px;
   width: 25ch;
-
+  text-shadow: 1px 1px 1px gray;
 }
 
 .sub-form p {
   font-size: 18px;
   font-weight: bold;
+  color: #001524;
+  text-shadow: 1px 1px 1px gray;
+
 }
 
 .sub-form a {
