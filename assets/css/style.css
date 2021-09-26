@@ -150,12 +150,29 @@ footer {
   padding: 50px;
 }
 
+.handles ul {
+  list-style: none;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.handles p {
+  font-size: 18px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
 .handles {
-  text-align: left;
+  text-align: center;
 }
 
 .icons {
   flex-direction: column;
+}
+
+.icons p {
+  font-size: 12px;
+  font-family:'Rubik', sans-serif ;
 }
 
 .sub-form {
