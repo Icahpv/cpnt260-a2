@@ -109,6 +109,38 @@ section div {
  padding: 40px;
 
 }
+/******Wedding & Services button*****/
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px 120px 0px;
+}
+
+.services img {
+  padding: 40px;
+  border-radius: 50px;
+}
+
+.services button {
+  color: black;
+  position: absolute;
+  padding: 15px 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'rubik', sans-serif;
+  text-shadow: 1px 1px 1px gray;
+  opacity: 0.6;
+  box-shadow: 1px 1px 2px black;
+  border-radius: 10px;
+}
+
+.services button:hover {
+  color: black;
+  opacity: 1.0;
+}
 
 /********* FOOTER **********/
 
@@ -130,6 +162,13 @@ footer {
   text-align: left;
 }
 
+.icons {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: row;
+}
+
 .sub-form {
   display: flex;
   justify-content: flex-start;
@@ -139,7 +178,7 @@ footer {
   text-align: center;
 }
 
-button {
+footer button {
     margin: 20px;
     padding: 10px;
     max-width: 100%;
